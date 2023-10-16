@@ -1,0 +1,63 @@
+body 
+{
+   background-image: url(background.avif);
+   background-size: cover;
+} 
+.header-title {
+background-color: #4e4846;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+.header-description {
+font-size: 18px;
+} 
+nav {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}  
+nav a {
+text-decoration: none;
+color: white;
+margin: 0 10px;
+} 
+nav a:hover { 
+text-decoration: underline;
+}
+.main-content {
+margin: 20px;
+padding: 20px; 
+background-color: rgba(255, 255, 255, 0.5);  
+} 
+.featured-dishes {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+} 
+.dish {
+flex: 1;
+margin: 10px;
+padding: 10px; 
+} 
+.dish img {
+max-width: 100%;
+transition: transform 0.5s;
+} 
+.dish img:hover {
+transform: scale(1.2); 
+} 
+.contact-section {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px;
+} 
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+} 
